@@ -19,10 +19,10 @@ public class Test {
         String format=null;
         try{
         PhoneNumberUtil phoneNumberUtil = PhoneNumberUtil.getInstance();
-//            Set<Integer> supportedCallingCodes = phoneNumberUtil.getSupportedCallingCodes();
-//            for(Integer code :supportedCallingCodes){
-//                System.out.println(code);
-//            }
+            Set<Integer> supportedCallingCodes = phoneNumberUtil.getSupportedCallingCodes();
+            for(Integer code :supportedCallingCodes){
+                System.out.println(code);
+            }
             
             Set<String> supportedRegions = phoneNumberUtil.getSupportedRegions();
             
