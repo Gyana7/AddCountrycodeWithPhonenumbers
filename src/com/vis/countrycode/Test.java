@@ -26,9 +26,9 @@ public class Test {
             
             Set<String> supportedRegions = phoneNumberUtil.getSupportedRegions();
             
-//            for(String region:supportedRegions){
-//                System.out.println(region);
-//            }
+            for(String region:supportedRegions){
+                System.out.println(region);
+            }
 
 
             for(String region:supportedRegions){
